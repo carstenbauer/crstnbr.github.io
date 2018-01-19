@@ -1,0 +1,67 @@
+div.title {
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    margin-bottom:10px;
+}
+
+div.content {
+    width:700px;
+    margin-top:70px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 0px;
+    position:relative;
+}
+
+p.title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555;
+    padding-bottom:0px;
+    margin-bottom:20px;
+}
+
+p {
+    font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 150%;
+}
+
+
+a:link, a:hover, a:visited {
+    color: #710000;
+    border-bottom: 1px dotted #710000;
+    text-decoration:none;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border: 0px;
+    margin-left:30px
+}
+
+tr { border: 0px; }
+    
+    
+td, td.description {
+    border:0px;
+    vertical-align:top;
+    /* width: 100%; */
+    font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 150%;
+    padding-bottom: 20px;
+}
+
+td.description {
+    width:65%;
+}

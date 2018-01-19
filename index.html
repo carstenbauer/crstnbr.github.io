@@ -1,1 +1,48 @@
-"Hello World" 
+
+<!-- saved from url=(0029)https://pebroecker.github.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Carsten Bauer's github</title>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body cz-shortcut-listen="true">
+<div class="title">
+<p class="title"><strong>carsten</strong>bauer // github</p>
+</div>
+<div class="content">
+<p>Welcome to my <a href="https://github.com/crstnbr">github repository</a>!</p>
+<p>I am in the process of writing my <a href="http://www.thp.uni-koeln.de/~broecker">PhD thesis</a> in theoretical physics at the University of Cologne. In the following repositories, I publish some of the codes that I have used during that time. I made an effort to polish them a bit and add some commentary where necessary. If not mentioned otherwise, they are published under the GPL license.</p>
+<p>The main focus of my work is the development of tools to study so-called interacting, quantum many-body systems, in particular quantum Monte Carlo. I developed most of these simulations in C(++) with analysis scripts written in Python until about two years ago when I made the switch to using Julia and Python for production codes as well. The reason is simply that these languages allow for much faster prototyping while the decrease in speed is often negligible, especially with Julia and Cython. Most of the codes I publish are thus in these two languages, which should make them accessible also for beginners in the field. </p>
+<p>Please feel free to contact me if you have any questions regarding the code or the research performed with it!</p>
+</div>
+
+<div class="content">
+  <table>
+    <tbody><tr>
+      <td>
+	<a href="https://github.com/pebroecker/MonteCarloObservable.jl">MonteCarloObservable.jl</a>
+      </td><td class="description">Provides general functionality to record and analyse data obtained in Monte Carlo simulations including error estimation for combined quantitites.</td></tr>
+    <tr><td>
+	<a href="https://github.com/pebroecker/Ising.jl">Ising.jl</a>
+      </td><td class="description">A fully functional simulation of the two dimensional, classical Ising model in Julia. Implements single spin flips and Wolff cluster updates. Output is written to HDF5 files. Optionally, dump full configurations to study with Machine Learning techniques.</td></tr>
+    
+    <tr><td>
+	<a href="https://github.com/pebroecker/PandaFinance">PandaFinance</a>
+      </td><td class="description">PandaFinance illustrates how to analyse bank statements using Pandas, SQL and Excel. It is written in Python 3.</td></tr>
+
+    <tr><td>
+	<a href="https://github.com/pebroecker/CythonHardcoreBosons">CythonHardcoreBosons</a>
+      </td><td class="description">Written in Cython, this code simulates hardcore bosons on a square lattice. It is actual production code that was used in a recent paper.</td></tr>
+
+    <tr><td>
+	<a href="https://github.com/pebroecker/DQMC">DQMC</a>
+      </td><td class="description">C++ implementation of interacting fermions on arbitrary lattices. </td></tr>
+
+    <tr><td>
+	<a href="https://github.com/pebroecker/DQMC.jl">DQMC.jl</a>
+      </td><td class="description">Julia implementation of interacting fermions on arbitrary lattices. Much easier to work with and extend compared to the above C++ version. Heavy use of LAPACK and Julia's advanced JIT compiler should ensure similar performance.</td></tr>
+
+    </tbody></table>
+</div>
+
+
+</body></html>
